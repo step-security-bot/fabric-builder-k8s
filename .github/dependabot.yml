@@ -28,3 +28,38 @@ updates:
    directory: "/samples/java-contract"
    schedule:
      interval: weekly
+
+ - package-ecosystem: docker
+   directory: /
+   schedule:
+     interval: daily
+
+ - package-ecosystem: gomod
+   directory: /
+   schedule:
+     interval: daily
+
+ - package-ecosystem: pip
+   directory: /
+   schedule:
+     interval: daily
+
+ - package-ecosystem: docker
+   directory: /samples/go-contract
+   schedule:
+     interval: daily
+
+ - package-ecosystem: gomod
+   directory: /samples/go-contract
+   schedule:
+     interval: daily
+
+ - package-ecosystem: docker
+   directory: /samples/java-contract
+   schedule:
+     interval: daily
+
+ - package-ecosystem: docker
+   directory: /samples/node-contract
+   schedule:
+     interval: daily
